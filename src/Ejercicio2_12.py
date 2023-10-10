@@ -2,9 +2,9 @@
 
 def IMC(peso, altura):
     resultado = round(float(peso)/(float(altura)**2),2)
-    return "Su IMC es: " + str(resultado)
+    return str(resultado)
  
 if __name__ == "__main__":
     peso = input("Introduzca su peso: ")
     altura = input("Introduzca su altura: ")
-    print(IMC(peso, altura))
+    print("Su IMC es: " + IMC(peso, altura))

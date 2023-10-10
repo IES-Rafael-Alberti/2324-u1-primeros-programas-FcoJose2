@@ -2,10 +2,11 @@
 
 def Suma(numeroUno, numeroDos, numeroTres):
     ResultadoSuma = numeroUno + numeroDos + numeroTres
-    return "El resultado de la suma es " + str(ResultadoSuma)
+    return str(ResultadoSuma)
 
 if __name__=="__main__":
     numeroUno = float(input("Introduzca el primer numero: "))
     numeroDos = float(input("Introduzca el segundo numero: "))
     numeroTres = float(input("Introduzca el tercer numero: "))
-    print(Suma(numeroUno, numeroDos, numeroTres))
+    ResultadoSuma = Suma(numeroUno, numeroDos, numeroTres)
+    print("El resultado de la suma es " + Suma(numeroUno, numeroDos, numeroTres))

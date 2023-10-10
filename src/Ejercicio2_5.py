@@ -3,9 +3,9 @@
 def calcularpreciofinal(precio, iva):
     precioiva = precio * iva
     preciofinal = precio + precioiva
-    return "El precio final es " + str(preciofinal)
+    return str(preciofinal)
 
 if __name__ == "__main__":
     precio = float(input("Escriba el precio sin IVA: "))
     iva = float(input("Escriba el IVA que va a ser aplicado: "))
-    print(calcularpreciofinal(precio, iva))
+    print("El precio final es " + calcularpreciofinal(precio, iva))

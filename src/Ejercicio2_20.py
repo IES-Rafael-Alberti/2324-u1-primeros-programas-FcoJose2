@@ -2,8 +2,8 @@
 
 def eliminar(telefono):
     telefono = telefono[4:-3]
-    return "El numero de telefono es " + str(telefono)
+    return str(telefono)
 
 if __name__ == "__main__":
     telefono = input("Inserte el numero de telefono: ")
-    print(eliminar(telefono))
+    print("El numero de telefono es " + eliminar(telefono))

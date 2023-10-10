@@ -2,7 +2,7 @@
 
 def resultado():
     resop = ((3+2) / (2*5))**2
-    return "El resultado de la operación es " + str(resop)
+    return str(resop)
 
 if __name__ == "__main__":
-    print(resultado())
+    print("El resultado de la operación es " + resultado())

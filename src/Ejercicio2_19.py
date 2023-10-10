@@ -3,10 +3,11 @@
 def contarYMay(nombre):
     nombre = nombre.upper()
     letras = len(nombre)
-    return "Su nombre es " + str(nombre) + " que tiene " + str(letras) + " letras."
+    return str(nombre), str(letras)
 
 if __name__ == "__main__":
     nombre = input("Introduzca su nombre: ")
-    print(contarYMay(nombre))
+    nombre, letras = contarYMay(nombre)
+    print("Su nombre es " + nombre + " que tiene " + str(letras) + " letras.")
 
 

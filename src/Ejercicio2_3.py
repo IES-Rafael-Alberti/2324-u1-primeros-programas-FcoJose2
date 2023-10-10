@@ -15,17 +15,17 @@ alto = 12.0
 
 def primeraexp(ancho):
     resultado1 = ancho / 2
-    return "El primer resultado es " + str(resultado1)
+    return str(resultado1)
 
 def segundaexp(ancho):
     resultado2 = ancho // 2
-    return "El segundo resultado es " + str(resultado2)
+    return str(resultado2)
 
 def tercerexp(alto):
     resultado3 = alto / 3
-    return "El tercer resultado es " + str(resultado3)
+    return str(resultado3)
 
 if __name__ == "__main__":
-    print(primeraexp(ancho))
-    print(segundaexp(ancho))
-    print(tercerexp(alto))
+    print("El primer resultado es " + primeraexp(ancho))
+    print("El segundo resultado es "+ segundaexp(ancho))
+    print("El tercer resultado es "+ tercerexp(alto))
